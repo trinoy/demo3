@@ -43,5 +43,10 @@ public class WebController {
     }
 
 
+    @GetMapping("/ping200")
+    public String ping200() {
+        return "pong200";
+    }
+
 
 }
