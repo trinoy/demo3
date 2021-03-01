@@ -21,5 +21,10 @@ public class WebController {
         return "pong3";
     }
 
+    @GetMapping("/ping5")
+    public String ping5() {
+        return "pong5";
+    }
+
 
 }
